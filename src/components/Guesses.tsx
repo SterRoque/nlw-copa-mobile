@@ -1,14 +1,9 @@
 import { Box } from 'native-base';
 
 interface Props {
-  poolId: string;
+   poolId: string;
 }
 
 export function Guesses({ poolId }: Props) {
-
-  return (
-    <Box>
-
-    </Box>
-  );
+   return <Box></Box>;
 }
