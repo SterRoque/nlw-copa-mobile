@@ -9,6 +9,7 @@ import {
 	useFonts,
 } from '@expo-google-fonts/roboto';
 import { AuthContextProvider } from './src/contexts/AuthContext';
+import { New } from './src/screens/New';
 
 export default function App() {
 	const [fontsLoaded] = useFonts({

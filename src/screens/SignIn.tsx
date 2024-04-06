@@ -11,7 +11,7 @@ export function SignIn() {
 		<Center flex={1} bg={'gray.900'} p={7}>
 			<Logo width={212} height={40} />
 			<Button
-				type='SECUNDARY'
+				type='SECONDARY'
 				title='ENTRAR COM O GOOGLE'
 				leftIcon={<Icon as={Fontisto} name='google' color='white' size='md' />}
 				mt={12}
